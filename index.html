@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Web Dev L2 Project 1</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #main {
+            margin: 1rem;
+            padding: 2rem 2rem;
+            text-align: center;
+        }
+
+        .photo,
+        .form {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 1rem;
+            border: 1px solid black;
+            height: 600px;
+        }
+
+        .photo {
+            width: 400px;
+            height: 600px;
+            color: white;
+            background-image: linear-gradient(purple, black), url(photo-1461800919507-79b16743b257.png);
+        }
+
+        .photo .text {
+            offset: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div id="main">
+            <div class="photo">
+                <div class="text"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h4>Bring your music along</h4><br>
+                <h5>try unlimited</h5><br><br><br>
+                <h4>$9.99<h6>/ Month</h6>
+                </h4>
+                </div>
+            </div>
+            <div class="form">
+                <h1>Registration Form</h1><br><br><br>
+                <p>Full Name:</p>
+                <input type="text" placeholder="ex: Linsey Wilson">
+                <p>Email:</p>
+                <input type="email">
+                <p>Password:</p>
+                <input type="password">
+                <p>Confirm Password:</p>
+                <input type="password"><br>
+                <input type="checkbox">
+                <p>By signing up, you agree to <br><a href="#">Play Term of Service</a></p>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
